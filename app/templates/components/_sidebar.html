@@ -1,0 +1,99 @@
+<div class="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark vh-100" style="width: 280px;">
+    <!-- Título do Sidebar -->
+    <a href="/" class="d-flex align-items-center mb-3 mb-md-0 me-md-auto text-white text-decoration-none">
+        <i class="bi bi-person-circle me-2"></i>
+        <span class="fs-4">AC Clinica</span>
+    </a>
+    <hr>
+
+    <!-- Menu Principal -->
+    <ul class="nav nav-pills flex-column mb-auto">
+        <!-- Dashboard -->
+        <li class="nav-item">
+            <a href="#" class="nav-link active text-white">
+                <i class="bi bi-speedometer2 me-2"></i>
+                Dashboard
+            </a>
+        </li>
+
+        <!-- Clientes (Com Submenus) -->
+        <li>
+            <a href="#submenuClientes" class="nav-link text-white d-flex align-items-center" data-bs-toggle="collapse"
+                role="button" aria-expanded="false" aria-controls="submenuClientes">
+                <i class="bi bi-people me-2"></i>
+                <span>Clientes</span>
+            </a>
+            <div class="collapse" id="submenuClientes">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li>
+                        <a href="#" class="nav-link text-white ms-4">
+                            <i class="bi bi-journal-text"></i> Registro de Clientes
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white ms-4">
+                            <i class="bi bi-clipboard-data"></i> Histórico de Clientes
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+
+        <!-- Estética (Com Submenus) -->
+        <li>
+            <a href="#submenuEstetica" class="nav-link text-white d-flex align-items-center" data-bs-toggle="collapse"
+                role="button" aria-expanded="false" aria-controls="submenuEstetica">
+                <i class="bi bi-heart-pulse me-2"></i>
+                <span>Estética</span>
+            </a>
+            <div class="collapse" id="submenuEstetica">
+                <ul class="btn-toggle-nav list-unstyled fw-normal pb-1 small">
+                    <li>
+                        <a href="#" class="nav-link text-white ms-4">
+                            <i class="bi bi-journal-text"></i> Registro de Atendimento
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white ms-4">
+                            <i class="bi bi-clipboard-data"></i> Histórico de Procedimentos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white ms-4">
+                            <i class="bi bi-scissors"></i> Procedimentos
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white ms-4">
+                            <i class="bi bi-calendar3"></i> Agenda
+                        </a>
+                    </li>
+                    <li>
+                        <a href="#" class="nav-link text-white ms-4">
+                            <i class="bi bi-file-earmark-text"></i> Relatórios
+                        </a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>
+
+    <hr>
+
+    <!-- Usuário -->
+    <div class="dropdown">
+        <a href="#" class="d-flex align-items-center text-white text-decoration-none dropdown-toggle" id="dropdownUser1"
+            data-bs-toggle="dropdown" aria-expanded="false">
+            <img src="https://via.placeholder.com/40" alt="" width="32" height="32" class="rounded-circle me-2">
+            <strong>Usuário</strong>
+        </a>
+        <ul class="dropdown-menu dropdown-menu-dark text-small shadow" aria-labelledby="dropdownUser1">
+            <li><a class="dropdown-item" href="#">Configurações</a></li>
+            <li><a class="dropdown-item" href="#">Perfil</a></li>
+            <li>
+                <hr class="dropdown-divider">
+            </li>
+            <li><a class="dropdown-item" href="#">Sair</a></li>
+        </ul>
+    </div>
+</div>
